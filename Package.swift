@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         // 🔢 Arbitrary-precision arithmetic in pure Swift
-        .package(url: "https://github.com/attaswift/BigInt.git", from: "5.0.0"),
+        .package(url: "https://github.com/attaswift/BigInt.git", from: "5.3.0"),
         
         // 🔑 Hashing (BCrypt, SHA2, HMAC), encryption (AES), public-key (RSA), and random data generation.
         .package(url: "https://github.com/astrokin/CryptoCore", .branch("master")),
